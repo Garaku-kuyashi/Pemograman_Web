@@ -6,51 +6,99 @@
     <title>NekoNeko Figure</title>
     <link rel="icon" type="img/jpg" href="img/icon/icon.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="source/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a href="">NekoNeko</a>
-            <nav>
+    <header class="header">
+        <div class="header-container">
+            <a class="logo" href="">Neko<span>NEKO</span></a>
+            <nav class="nav">
                 <a href="">Home</a>
                 <a href="">Kategori</a>
                 <a href="">Produk</a>
                 <a href="">Hubungi kami</a>
-                <a href=""><button>Login</button></a>
             </nav>
-            <div>
+            <div class="icon">
                 <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
+            <a href=""><button class="btn-primary">Login</button></a>
         </div>
     </header>
-    <section>
-        <div>
-            <h1>Welcome to NekoNeko Figure</h1>
-            <p>Mari hiasi kamar dengan waifu dan husbu kalian</p>
-            <a href=""><button>Mari Khilaf</button></a>
-            <div>
-                <img src="img/figure-img.jpg" alt="NekoNeko Figure">
+    <section class="hero">
+        <div class="hero-top">
+            <div class="hero-section">
+                <h1 class="hero-title">Welcome to NekoNeko <span class="title-span">Figure</span></h1>
+                <p class="hero-subtitle">Mari hiasi kamar dengan waifu dan husbu kalian</p>
+                <a href=""><button class="btn-secondary">Mari Khilaf</button></a>
             </div>
+            <img class="hero-img" src="img/picture.png" alt="NekoNeko Figure">
         </div>
-        <div>
-            <div>
+
+        <div class="hero-social">
+            <div class="hero-social-item">
                 <i class="fa-solid fa-money-bills"></i>
-                <h3>Murah</h3>
+                <div class="hero-social-text">
+                    <h3>Murah</h3>
+                    <P>Harga murah mulai dari <span>100 ribuan </span>saja</P>
+                </div>
             </div>
-            <div>      
+            <div class="hero-social-item">      
                 <i class="fa-solid fa-people-carry-box"></i>
-                <h3>Menjangkau seluruh indonesia</h3>
+                <div class="hero-social-text">
+                    <h3>Aman</h3>
+                    <P>Pengiriman aman sampai tujuan</P>
+                </div>
             </div>
-            <div>             
+            <div class="hero-social-item">             
                 <i class="fa-solid fa-comments"></i>
-                <h3>Aktif 24 jam</h3>
+                <div class="hero-social-text">
+                    <h3>Aktif 24 jam</h3>
+                    <p>Kami aktif 24 jam</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer>
-        <a href="https://dribbble.com/shots/25289280-Tax-Attorney-Landing-Page-Design">Refrensi 1</a>
-        
-        <a href="https://dribbble.com/shots/26404910-AI-Sales-Landing-Page-Design">Refrensi 2</a>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+        <div class="logo-foot">NEKO<span>NEKO</span></div>
+        <p class="brand-desc">Memberdayakan otaku dengan figur anime premium. Dapatkan waifu dan husbu-mu hari ini</p>
+        <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-x"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+
+        <div class="footer-links">
+        <div class="link-col">
+            <h4>Site Map</h4>
+            <ul>
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">Kategori</a></li>
+            <li><a href="#">Produk</a></li>
+            <li><a href="#">Hubungi Kami</a></li>
+            <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="link-col">
+            <h4>Legal</h4>
+            <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2025 NekoNeko Figure. All Rights Reserved.</p>
+        <p><a href="https://dribbble.com/shots/25289280-Tax-Attorney-Landing-Page-Design">Refrensi 1</a></p>
+        <p><a href="https://dribbble.com/shots/26404910-AI-Sales-Landing-Page-Design">Refrensi 2</a></p>
+    </div>
     </footer>
 </body>
 </html>
