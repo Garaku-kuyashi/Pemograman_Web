@@ -25,8 +25,6 @@ function validasi() {
         return false;
     }
 
-    
-    window.location.href = "./index.html";
     return false; 
 }
 
